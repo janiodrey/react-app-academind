@@ -9,7 +9,7 @@ function App() {
     <div>
       <Layout>
         <Switch>
-          <Route path="/" exact="true">
+          <Route path="/" exact={true}>
             <AllMeetupsPage></AllMeetupsPage>
           </Route>
           <Route path="/new-meetup">
